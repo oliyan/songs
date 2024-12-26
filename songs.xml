@@ -1,52 +1,185 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
 <songs>
 <song>
-<authorText>Kamal Hassan</authorText>
-<chordSequence>C F G Dm Em Am</chordSequence>
+<chordSequence>Bb A C Dm F Bm Gm</chordSequence>
+<composer>Santhosh Narayanan</composer>
+<language>Tamil</language>
+<lyrics>
+Intro
+Dm Dm Dm A  |
+Dm Bm Gm Gm |X2
+
+Gm Gm Dm Dm X2
+
+---
+
+Dm Dm Gm Dm
+ஆகாசத்த நான் பாக்குறேன்
+ஆறு கடல் நான் பாக்குறேன் X2
+
+Gm Bb C A
+கண்ணால எதையும் காணாத இவதான் கண்ணீரப் பாத்தேனே
+இனி என்னோட அழக பொன்னான உலக உன்னால பாப்பேனே
+
+Gm Bb Dm
+Gm Bb Dm
+
+ஆகாசத்த...
+
+A Dm A Dm
+ஊரு கண்ணு படும்படி உறவாடும் கனவே தொடருதே
+
+Gm Bb A Bb
+நனவாகும் கனவே அருகிலே உன்னத் தூக்கி சுமப்பேன் கருவிலே
+
+Dm Gm Bb A
+மடிவாசம் போதும் உறங்கவே நீதானே சாகா வனங்களே
+
+Bb Gm Dm C
+தமிழே தமிழே  வருவேனே உன் கரமாய்
+
+F C F C
+கொடியே கொடியே அழுறேனே ஆன்ந்தமாய்
+
+Dm Dm Gm Dm
+ஆகாசத்த நான் பாக்குறேன்
+ஆறு கடல் நான் பாக்குறேன் X2
+
+
+Gm Bb C A
+கண்ணால எதையும் காணாத இவதான் கண்ணீரப் பாத்தேனே
+இனி என்னோட அழக பொன்னான உலக உன்னால பாப்பேனே
+
+A Dm A Dm
+காம்பத் தேடும் குழந்தையா உன்னைத் தேடும் உசிரு பசியில
+
+Gm Bb A Bb
+கோடிப் பேரில் உன்னை மட்டும் அறிவேனே தொடுகிற மொழியில
+
+Dm Gm Bb A
+பேரன்பு போல ஏதுமில்ல நீ போதும் நானும் ஏழையில்ல
+
+Bb Gm Dm C
+அழகா அழகா குயிலாவேன் உன் தோளில்
+
+F C F C
+அழகி அழகி இது போதும் வாழ்நாளில்
+
+Dm Dm Gm Dm
+ஆகாசத்த நான் பாக்குறேன்
+ஆறு கடல் நான் பாக்குறேன் X2
+
+Gm Bb C A
+கண்ணால எதையும் காணாத இவதான் கண்ணீரப் பாத்தேனே
+இனி என்னோட அழக பொன்னான உலக உன்னால பாப்பேனே
+
+</lyrics>
+<publisher>Cuckoo</publisher>
+<title>Aagasatha Naan Paakuren</title>
+<uuid>5998e682-0a84-475a-879c-c95a4f914be1</uuid>
+</song>
+<song>
+<composer>Ilayaraja</composer>
+<language>Tamil</language>
+<lyrics> 
+
+(Dm)eLangaathu veesudhey isai poala paesudhey
+(Dm)vaLaiyaadha moongilil (C)raagam (Dm)vaLainchu oadudhey
+(C)maegham (Dm)muzhichu kaetkudhey
+(Dm)karum paaRai manasula mayil thoagai virikkudhey
+(Dm)mazhai chaaral theLikkudhey (C)pul veLi (Dm)paadhai virikkudhey 
+(C)vaanavil (Dm)kudaiyum pu***kudhey
+(C)pul veLi (Dm)paadhai virikkudhey (C)vaanavil (Dm)kudaiyum pu***kudhey
+
+(Dm)maNiyin oasai kaettu mana (F)kadhavu thiRakkudhey
+(Dm)puthiya thaaLam poattu udal (F)kaatril midhakkudhey
+
+(Am)pinni pinni chinna eLaiyoadum nenjai aLLum vaNNa thuNi poalao
+(F)oNNukkoNNu dhaan iNanchi irukkuu uRavu yellaam amanchi irukku
+(Am)aLLi aLLi thandhu uRavaadum annamadi indha nilam poala 
+(F)silarukku dhaan manasu irukku ulagam adhil nilaichu irukku
+(Dm)nae(C)thu (Dm)thanimaiyila (F)poachu, (Dm)yaa(C)rum (Dm)thuNai (F)illai
+(Dm)yaa(C)ro (Dm)vazhi thuNaikku (F)vandhaal (Dm)yae(C)dhum (Dm)iNai i(F)lla
+(Dm)ulagathil (C)edhu(Dm)vum (Dm)thanichu (C)illai(Dm)yae
+(Dm)kuzhalil (C)raagam (Am)malaril (Em)vaasam (C)saerndhadhu poalaa(Dm)aaaa
+
+</lyrics>
+<publisher>Pithamagan</publisher>
+<title>Elangaathu </title>
+<uuid>3cd11b55-7eac-4a2d-9d2b-3d3acc1f34ad</uuid>
+</song>
+<song>
 <composer>Ilayaraja</composer>
 <language>Tamil</language>
 <lyrics>
-C Em Dm G C | Dm G
-கண்மணி அன்போடு காதலன் நான் எழுதும் கடிதமே
-பொன்மணி உன் வீட்டில் சௌக்யமா நான் இங்கு சௌக்யமே 
+C           Dm
+இளைய நிலா பொழிகிறதே
+இதயம் வரை நனைகிறதே
 
-C G C 
-C G C | Dm G
-உன்னை எண்ணி பார்க்கையில் கவிதை கொட்டுது 
-அதை எழுத நினைக்கையில் வார்த்தை முட்டுது 
+Dm            C     F
+உலாப் போகும் மேகம் கனாக் காணுமே
+Bb                 ADm
+விழாக் காணுமே வானமே
 
-C Am F G C
-உண்டான காயமெங்கும் தன்னாலே மாறிப்போன மாயமென்ன பொன்மானே பொன்மானே 
-என்ன காயம் ஆனபோதும் என் மேனி தாங்கிக்கொள்ளும் உந்தன் மேனி தாங்காது செந்தேனே 
+F            Am	     
+வரும் வழியில் பனி மழையில் 
+F
+பருவ நிலா தினம் நனையும்
+F           E
+முகிலெடுத்து முகம் துடைத்து
+Am           F
+விடியும் வரை நடை பழகும்
 
-Em Dm | FG
-எந்தன் காதல் என்னவென்று சொல்லாமல் ஏங்க ஏங்க அழுகை வந்தது 
-எந்தன் சோகம் உன்னை தாக்கும் என்றெண்ணும் போது வந்த அழுகை நின்றது 
+Dm          F
+வான வீதியில் மேக ஊர்வலம்
+Dm             F
+காணும் போதிலே ஆறுதல் தரும்
 
-Am Em F C
-மனிதர் உணர்ந்து கொள்ள இது மனிதர் காதல் அல்ல அதையும் தாண்டி புனிதமானது 
+ C         Bb              A
+பருவ மகள் விழிகளிலே கனவு வரும்
 
-C Em Dm G C | Dm G
-அபிராமியே தாலாட்டும் சாமியே நான்தானே தெரியுமா 
-சிவகாமியே சிவனில் நீயும் பாதியே அதுவும் உனக்கு புரியுமா 
+C           Dm
+இளைய நிலா பொழிகிறதே
+இதயம் வரை நனைகிறதே
 
+Dm            C     F
+உலாப் போகும் மேகம் கனாக் காணுமே
+Bb                 ADm
+விழாக் காணுமே வானமே
 
+C           Dm
+இளைய நிலா பொழிகிறதே
+இதயம் வரை நனைகிறதே
+
+F            Am
+முகிலினங்கள் அலைகிறதே
+F 
+முகவரிகள் தொலைந்தனவோ
+F          E
+முகவரிகள் தவறியதால்
+Am          F
+அழுதிடுமோ அது மழையோ
+
+Dm          F
+நீல வானிலே வெள்ளி ஓடைகள்
+Dm          F
+ஓடுகின்றதே என்ன ஜாடைகள்
+
+C            Bb            A
+விண்வெளியில் விதைத்தது யார் நவமணிகள்
+
+C           Dm
+இளைய நிலா பொழிகிறதே
+இதயம் வரை நனைகிறதே
+
+Dm            C     F
+உலாப் போகும் மேகம் கனாக் காணுமே
+Bb                 ADm
+விழாக் காணுமே வானமே
 </lyrics>
-<publisher>Guna</publisher>
-<title>Kanmani Anbodu</title>
-<uuid>5e472fc0-eb18-4344-a431-e239d2572d8e</uuid>
+<title>Ilaya Nila</title>
+<uuid>34687ef6-81c0-4e90-884e-9515d414cdb0</uuid>
 </song>
-<song>
-<lyrics>Put your lyrics here</lyrics>
-<title>New Song</title>
-<uuid>829553e2-af7a-4360-ae7d-62f5c0cc7af2</uuid>
-</song>
-<song>
-<lyrics>Put your lyrics here</lyrics>
-<title>New Song</title>
-<uuid>85231c26-61cc-4156-9d73-b3e5df95c8d7</uuid>
-</song>
-
 <song>
 <chordSequence>C G Am D</chordSequence>
 <language>Tamil</language>
@@ -107,5 +240,384 @@ G Am D G
 <title>Jolly oh Gymkhana</title>
 <uuid>f91a2a2c-4ab3-42a5-8b1a-e23b9e5a22db</uuid>
 </song>
+<song>
+<composer>AR Rahman</composer>
+<language>Tamil</language>
+<lyrics>
 
+(Em) Kaathal Roajaa (B) vae (Em) Engae Nee En (B) gae
+(E) Kanneer (A) Vazhiyuthadi (B) Kannae
+(E) Kannuk (A) kul (G) Nee (B) thaan (E) Kan (A) neeril (G) Nee (B) thaan
+(E) Kanmoo (A) di (G) Paar (B) thaal (E) Nenjuk (A) kul (G) Nee (B) thaan
+(Em) Ennaana (B) tho (Am) Aethaanatho (B) Sol Sol..
+(E) Thenral Ennai Theendinaal Selai Theendum (B) Nyaabagam
+(E) Chinna Pookkal Paarkkaiyil Daegam Paartha (B) Nyaabagam
+(E) Velli Oadai Paesinaal Sonna Vaarthai (A) Nyaabagam
+(E) Maegam Rendum Saergaiyil Mogam Konda (A) Nyaabagam
+(E) Vaai Il (A) laamal (G) Poa(B) naal (E) Vaarthai (A) Illai (G) Pen (B) nae
+(E) Nee Il (A) laamal (G) Poa (B) naal (E) Vaazhkkai (A) Illai (G) Kan (B) nae
+(Em) Mullodu (B) thaan (Am) Muthangalaa (B) Sol Sol..
+
+</lyrics>
+<publisher>Roja</publisher>
+<title>Kaadhal Rojavey</title>
+<uuid>1a793304-386d-4097-b8d1-0cd0969025d2</uuid>
+</song>
+<song>
+<composer>Ilayaraja</composer>
+<language>Tamil</language>
+<lyrics>
+Am		C		Am		C
+Kattukkuyilu Manasukkulla Paattukkonnum Panjamilla Paadathaan
+
+Am		C		Am		C
+Kavalaikkattu Vittupputtu Thavilaith Thattuth Thullikkittu Aadathaan
+
+C		Am		Dm		G
+Elloarum	Mothathila 	Sandhoasha Sathathilae
+
+C	Am	Dm	G
+Onnaana Naerathilae Ullaasa Nenjathilae
+(Kaattukkuyilu)
+
+A				G	
+Poadaa Ellaam Vittuthallu Pazhasaiyellaam Suttuthallu
+
+A		D		     Am
+Puthusaa Ippap Porandhoamunnu Ennikkolladaa
+
+A				G	
+Payanam Engae Poanaalenna Paathai Nooru Aanaalenna
+
+A			D		     Am
+Thoattam Vechavan Thanneer Viduvaan Summaa Nilladaa Doay
+
+A
+Oothak Kaathu Veesa Odambukkulla Koosa
+
+				D
+Kuppa Koodam Pathavachuk Kaayalaam
+
+
+A
+Thai Porakkum Naalai Vidiyum Nalla Vaelai
+                                        D
+Pongap Paana Vellam Poalap Paayalaam
+
+Dm                  Dsus2            Dm              C              
+Achu Vellam Pacharisi Vetti Vecha Sengarumbu
+
+G                       E
+Athanaiyum Thithikkira Naalthaan Hoay
+</lyrics>
+<publisher>Thalapathy</publisher>
+<title>Kaatukuyilu</title>
+<uuid>c13e0367-de40-4727-9643-2cc4ef2289a3</uuid>
+</song>
+<song>
+<authorText>Kamal Hassan</authorText>
+<chordSequence>C F G Dm Em Am</chordSequence>
+<composer>Ilayaraja</composer>
+<language>Tamil</language>
+<lyrics>
+C Em Dm G C | Dm G
+கண்மணி அன்போடு காதலன் நான் எழுதும் கடிதமே
+பொன்மணி உன் வீட்டில் சௌக்யமா நான் இங்கு சௌக்யமே 
+
+C G C 
+C G C | Dm G
+உன்னை எண்ணி பார்க்கையில் கவிதை கொட்டுது 
+அதை எழுத நினைக்கையில் வார்த்தை முட்டுது 
+
+C Am F G C
+உண்டான காயமெங்கும் தன்னாலே மாறிப்போன மாயமென்ன பொன்மானே பொன்மானே 
+என்ன காயம் ஆனபோதும் என் மேனி தாங்கிக்கொள்ளும் உந்தன் மேனி தாங்காது செந்தேனே 
+
+Em Dm | FG
+எந்தன் காதல் என்னவென்று சொல்லாமல் ஏங்க ஏங்க அழுகை வந்தது 
+எந்தன் சோகம் உன்னை தாக்கும் என்றெண்ணும் போது வந்த அழுகை நின்றது 
+
+Am Em F C
+மனிதர் உணர்ந்து கொள்ள இது மனிதர் காதல் அல்ல அதையும் தாண்டி புனிதமானது 
+
+C Em Dm G C | Dm G
+அபிராமியே தாலாட்டும் சாமியே நான்தானே தெரியுமா 
+சிவகாமியே சிவனில் நீயும் பாதியே அதுவும் உனக்கு புரியுமா 
+
+
+</lyrics>
+<publisher>Guna</publisher>
+<title>Kanmani Anbodu</title>
+<uuid>5e472fc0-eb18-4344-a431-e239d2572d8e</uuid>
+</song>
+<song>
+<chordSequence>C G F Dm Em Am</chordSequence>
+<composer>Ilayaraja</composer>
+<language>Tamil</language>
+<lyrics> 
+ Intro
+ C
+ G
+ C F Dm G C
+
+---
+C 
+நிலாவே வா! செல்லாதே வா!
+
+எந்நாளும் உன் பொன் வானம் நான்
+
+
+C             D         F           G
+என்னை நீ தான் பிரிந்தாலும் நினைவாலே! அணைத்தேன்
+
+C
+நிலாவே வா! செல்லாதே வா!
+
+C
+காவேரியா! கானல் நீரா!
+GF       FG    C
+பெண்ணே என்ன உண்மை
+C
+முள்வேலியா! முல்லை பூவா!
+GF      FG      C
+சொல்லு கொஞ்சம் நில்லு
+
+ 
+C           Am     Em
+அம்மாடியோ நீ தான் இன்னும் சிறு பிள்ளை
+Am                 Em   F       C
+தாங்காதம்மா நெஞ்சம் நீயும் சொன்ன சொல்லை
+
+Dm                DmEm     EmF      FG
+பூந்தேனே! நீ தானே சொல்லில் வைத்தாய் முள்ளை
+ 
+C
+பூஞ்சோலையில் வாடை காற்றும் 
+GF   FG    C
+வாட சந்தம் பாட
+C
+கூடாதென்று கூறும் பூவும்
+GF  FG       C
+ஏது மண்ணின் மீது
+
+ 
+C        Am     Em
+ஒரே ஒரு பார்வை தந்தால் என்ன தேனே!
+
+Am               Em       F      C
+ஒரே ஒரு வார்த்தை சொன்னால் என்ன மானே!
+
+Dm              DmEm  EmF  FG
+ஆகாயம் தாங்காத மேகம் ஏது கண்ணே!
+
+ 
+C 
+நிலாவே வா! செல்லாதே வா!
+
+எந்நாளும் உன் பொன் வானம் நான்
+
+
+C             D         F           G
+என்னை நீ தான் பிரிந்தாலும் நினைவாலே! அணைத்தேன்
+
+C
+நிலாவே வா! செல்லாதே வா!
+</lyrics>
+<publisher>Mouna Raagam</publisher>
+<title>Nilave Va</title>
+<uuid>762a00be-8406-4ffc-b4b0-c74ab176d099</uuid>
+</song>
+<song>
+<composer>Anirudh</composer>
+<language>Tamil</language>
+<lyrics>
+Am
+Po Nee Po
+
+Am
+Po Nee Po
+
+Am	   Am		Dm	     Am			
+Thaniyaga Thavikindren Thunai Vendam Anbe Po
+
+Am	   Am		Dm	     Am
+Pinamaga Nadakindren Uyir Vendam Thooram Po
+
+Am          Em        Dm         Am
+Nee Thottal Idamellam Erikirathu Anbe Po
+
+Am          Em        Dm         Am
+Naan Pogum Nimidangal Unakaagum Anbe Po
+
+Am          Em        F            G
+Ithu Vendam Anbae Poo Nijam Thedum Anbe Po
+
+Am          Em        F            G
+Uyiroda Vilaiyada Vithi Seithal Anbe Po
+
+
+
+Am G C Dm
+Ohh Ohh Oh..
+
+Am G C Em
+Ohh Ohh Oh..
+
+
+Am	   Am		Dm	     Am	
+Thaniyaga Thavikindren Thunnai Vendam Anbe Po
+
+Am	   Am		Dm	     Am	
+Pinnama Nadakindren Uyir Vendam Thorum Po
+
+
+Am      Am   Am   Am
+Unnalae Uyir Vazhgiraen
+
+Dm  Dm  Em Em
+Unakaga Penne
+
+Am      Am   Am   Am
+Uyir Kaathal Nee Katinaal
+
+Dm  Dm  Em Em
+Maravene Penne
+
+
+Am         G       F          C
+Ithu Varai Unnudan Vaazhantha En Natkal
+
+Am         G           F          C
+Marumurai Vaazhanthida Vazhi Illaiyaa
+
+Am         G       F       C
+Irulil Thediya Thedalgal Ellam
+
+Am         G       F       C
+Vidiyalai Kaanavum Vithi Illaiyaa
+
+
+Am G C Dm
+Ohh Ohh Oh..
+
+Am G C Em
+Ohh Ohh Oh..
+
+
+Podi Po
+
+
+Podi Po
+
+
+Am	   Am		Dm	     Am	
+En Kaathal Puriyalaiyaa Un Nashtam Anbe Po
+
+Am	   Am		Dm	     Am	
+En Kanavu Kalainthalum Nee Irunthaai Anbe Po
+
+Am          Em        Dm         Am
+Naan Pogum Nimidangal Unakaagum Anbe Pø
+
+Am          Em        F            G
+Ithu Vendam Anbae Pøø Nijam Thedum Anbe Pø
+
+Am          Em        F            G
+Uyirøda Vilaiyada Vithi Šeithal Anbe Pø
+
+
+
+Am G C Dm
+Ohh Ohh Oh..
+
+Am G C Em
+Ohh Ohh Oh..
+</lyrics>
+<publisher>3 Three</publisher>
+<title>Po Nee Po</title>
+<uuid>d364ac47-90a9-4eb6-b92d-3b12a2a83213</uuid>
+</song>
+<song>
+<composer>Anirudh</composer>
+<language>Tamil</language>
+<lyrics>
+(Em)Thangamae Unnathaan (G)Thaedi Vantha(D)en Naanae
+(Em)Vairamae Orunaal (G)Unna Thoo(D)kuvaenae
+
+(Em)Raasaathiya Raathiri Paathaen
+(G)Rowdy Payan (D)Romantic Aanaen
+(Em)Ragasiyama Routea Pottu
+(G)Kadathanum Kadathanum (D)Kadathanum Unna
+
+(Em)Vaaimoodiyae Vaaya Polanthaen
+(G)Verunkaalula (D)Vinveli Ponaen
+
+(Em)Verappaa Irunthaalum Valanjaen
+(G)Niruthanum Niruthanum (D)Niruthanum Enna
+
+(Em)Black And White Kannu Unna (G)Paatha
+Colora (D)Maaruthae
+(Em)Thuru Pudicha Kaathal Narambellam
+(G)Surusuruppaaga (D)Seeruthae
+
+(Em)Ava Faceu Adadadada
+(G)Ava Shapeu (D)Apapapapapa
+(Em)Mothathula Aiyayayayayo
+(G)Izhukkuthu Izhukkuthu (D)Izhukkuthu Enna
+
+Thangamae Unnathaan Thaedi Vanthaen Naanae
+Vairamae Orunaal Unna Thookuvaenae
+
+Charanam:
+(Em)Hey Nee Enna (A)Paakkuramathiri
+(Em)Naan Unna (Bm)Paakkalaiyae
+(Em)Naan Paesum (A)Kaathal Vasanam
+(Em)Unakkuthaan (Bm)Kaekkalaiyae
+
+(A)Adiyae En (C#m)Kanavula Senjuvacha Silaiyae
+(F#m)Kødiyae Èn (Bm)Kannukkulla Pøthi Vaippaen Unaiyae
+
+(Em)Oru Billa Pøla (F#m)Naanum Aanaalum
+Unna (C#m)Nalla Paathupaenae (A)Ènnaalum
+
+(Bm7)Adiyae Yaezhyaezhu Jenmam Aanaalum
+Nee Illaama Naan Illadi
+
+Thangamae Unnathaan Thaedi Vanthaen Naanae
+Vairamae Orunaal Unna Thøøkuvaenae
+</lyrics>
+<publisher>Naanum Rowdy Thaan</publisher>
+<title>Thangamey</title>
+<uuid>47868162-ecba-4b14-8359-9e40b14c5160</uuid>
+</song>
+<song>
+<composer>Sam CS</composer>
+<language>Tamil</language>
+<lyrics>
+Am | Dm | G | C G7| Am
+Am | Dm | G | C G7| Am
+
+Am | F | C | G |
+Am | F | C | G7|
+
+Am | F | Am | Dm G| G |
+Am | Dm G |  Em Am
+
+Am   | F G  |
+Dm E | E E7 |
+
+
+Am   | F G  |
+Dm E | 
+
+Am   | Am
+Am   | G
+
+Am   | Am
+Am   | G   E7
+</lyrics>
+<publisher>Vikram Vedha</publisher>
+<title>Yaanji</title>
+<uuid>77d0eccb-6f8b-4114-bd3d-bdd09ba71e4d</uuid>
+</song>
 </songs>
