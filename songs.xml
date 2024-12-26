@@ -1,0 +1,23 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<songs>
+<song>
+<authorText>Kamal Hassan</authorText>
+<chordSequence>C F G Dm Em Am</chordSequence>
+<composer>Ilayaraja</composer>
+<language>Tamil</language>
+<lyrics>C Em Dm G C Dm G கண்மணி அன்போடு காதலன் நான் எழுதும் கடிதமே பொன்மணி உன் வீட்டில் சௌக்யமா நான் இங்கு சௌக்யமே C G C உன்னை எண்ணி பார்க்கையில் கவிதை கொட்டுது C G C அதை எழுத நினைக்கையில் வார்த்தை முட்டுது C Am F G C உண்டான காயமெங்கும் தன்னாலே மாறிப்போன மாயமென்ன பொன்மானே பொன்மானே C Am F G C என்ன காயம் ஆனபோதும் என் மேனி தாங்கிக்கொள்ளும் உந்தன் மேனி தாங்காது செந்தேனே Em Dm FG எந்தன் காதல் என்னவென்று சொல்லாமல் ஏங்க ஏங்க அழுகை வந்தது Em Dm FG எந்தன் சோகம் உன்னை தாக்கும் என்றெண்ணும் போது வந்த அழுகை நின்றது Am Em F C மனிதர் உணர்ந்து கொள்ள இது மனிதர் காதல் அல்ல அதையும் தாண்டி புனிதமானது C | Em | Dm அபிராமியே தாலாட்டும் சாமியே நான்தானே தெரியுமா சிவகாமியே சிவனில் நீயும் பாதியே அதுவும் உனக்கு புரியுமா </lyrics>
+<publisher>Guna</publisher>
+<title>Kanmani Anbodu</title>
+<uuid>5e472fc0-eb18-4344-a431-e239d2572d8e</uuid>
+</song>
+<song>
+<lyrics>Put your lyrics here</lyrics>
+<title>New Song</title>
+<uuid>829553e2-af7a-4360-ae7d-62f5c0cc7af2</uuid>
+</song>
+<song>
+<lyrics>Put your lyrics here</lyrics>
+<title>New Song</title>
+<uuid>85231c26-61cc-4156-9d73-b3e5df95c8d7</uuid>
+</song>
+</songs>
