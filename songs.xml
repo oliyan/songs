@@ -711,7 +711,8 @@ Am   | G   E7
 <uuid>77d0eccb-6f8b-4114-bd3d-bdd09ba71e4d</uuid>
 </song>
 <song>
-<chordSequence>1st Capo Em D A A</chordSequence>
+<chordSequence>Em D A A</chordSequence>
+<capo>1</capo>
 <composer>Yuvan</composer>
 <language>Tamil</language>
 <lyrics>
@@ -1081,10 +1082,11 @@ E
 <uuid>kodai-kaala-kaatre</uuid>
 </song>
 <song>
+<capo>1</capo>
 <composer>Joshua Sridhar</composer>
 <language>Tamil</language>
 <lyrics>
-Capo 1st
+
 A
 மழை வரும் அறிகுறி என்
 F#m
