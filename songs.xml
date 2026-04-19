@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <songs>
 <autoSort>true</autoSort>
-  <song><title>Aagasatha Naan Paakuren</title><publisher>Cuckoo</publisher><composer>Santhosh Narayanan</composer><language>Tamil</language><chordSequence>Bb A C Dm F Bm Gm</chordSequence><uuid>5998e682-0a84-475a-879c-c95a4f914be1</uuid><lyrics>
+  <song>
+  <title>Aagasatha Naan Paakuren</title>
+  <publisher>Cuckoo</publisher>
+  <composer>Santhosh Narayanan</composer>
+  <language>Tamil</language>
+  <chordSequence>Bb A C Dm F Bm Gm</chordSequence>
+  <uuid>5998e682-0a84-475a-879c-c95a4f914be1</uuid>
+  <lyrics>
 Intro
 Dm Dm Dm A  |
 Dm Bm Gm Gm |X2
@@ -70,8 +77,15 @@ Gm Bb C A
 கண்ணால எதையும் காணாத இவதான் கண்ணீரப் பாத்தேனே
 இனி என்னோட அழக பொன்னான உலக உன்னால பாப்பேனே
 
-</lyrics></song>
-  <song><title>Elangaathu </title><publisher>Pithamagan</publisher><composer>Ilayaraja</composer><language>Tamil</language><uuid>3cd11b55-7eac-4a2d-9d2b-3d3acc1f34ad</uuid><lyrics> 
+</lyrics>
+  </song>
+  <song>
+  <title>Elangaathu </title>
+  <publisher>Pithamagan</publisher>
+  <composer>Ilayaraja</composer>
+  <language>Tamil</language>
+  <uuid>3cd11b55-7eac-4a2d-9d2b-3d3acc1f34ad</uuid>
+  <lyrics> 
 
 (Dm)eLangaathu veesudhey isai poala paesudhey
 (Dm)vaLaiyaadha moongilil (C)raagam (Dm)vaLainchu oadudhey
@@ -93,8 +107,17 @@ Gm Bb C A
 (Dm)ulagathil (C)edhu(Dm)vum (Dm)thanichu (C)illai(Dm)yae
 (Dm)kuzhalil (C)raagam (Am)malaril (Em)vaasam (C)saerndhadhu poalaa(Dm)aaaa
 
-</lyrics></song>
-  <song><title>Jolly oh Gymkhana</title><publisher>Beast</publisher><composer>Anirudh</composer><singers>Vijay</singers><language>Tamil</language><chordSequence>C G Am D</chordSequence><uuid>f91a2a2c-4ab3-42a5-8b1a-e23b9e5a22db</uuid><lyrics>
+</lyrics>
+  </song>
+  <song>
+  <title>Jolly oh Gymkhana</title>
+  <publisher>Beast</publisher>
+  <composer>Anirudh</composer>
+  <singers>Vijay</singers>
+  <language>Tamil</language>
+  <chordSequence>C G Am D</chordSequence>
+  <uuid>f91a2a2c-4ab3-42a5-8b1a-e23b9e5a22db</uuid>
+  <lyrics>
 G Am D G
 ரெண்டுல ஒன்னு பாக்கலாம் நிக்குரியா தெம்பா
 எப்பவும் லைஃபு திரும்பலாம் நம்புறியா நண்பா யப்பா X2
@@ -147,8 +170,15 @@ G D D G
 
 G Am D G
 திருப்பி அத குடுத்தா அட பீஸ்ட் நீதாண்டா
-</lyrics></song>
-  <song><title>Kaadhal Rojavey</title><publisher>Roja</publisher><composer>AR Rahman</composer><language>Tamil</language><uuid>1a793304-386d-4097-b8d1-0cd0969025d2</uuid><lyrics>
+</lyrics>
+  </song>
+  <song>
+  <title>Kaadhal Rojavey</title>
+  <publisher>Roja</publisher>
+  <composer>AR Rahman</composer>
+  <language>Tamil</language>
+  <uuid>1a793304-386d-4097-b8d1-0cd0969025d2</uuid>
+  <lyrics>
 
 (Em) Kaathal Roajaa (B) vae (Em) Engae Nee En (B) gae
 (E) Kanneer (A) Vazhiyuthadi (B) Kannae
@@ -163,8 +193,16 @@ G Am D G
 (E) Nee Il (A) laamal (G) Poa (B) naal (E) Vaazhkkai (A) Illai (G) Kan (B) nae
 (Em) Mullodu (B) thaan (Am) Muthangalaa (B) Sol Sol..
 
-</lyrics></song>
-  <song><title>Kaatukuyilu</title><publisher>Thalapathy</publisher><composer>Ilayaraja</composer><language>Tamil</language><uuid>c13e0367-de40-4727-9643-2cc4ef2289a3</uuid><lyrics>
+</lyrics>
+  </song>
+  <song>
+  <title>Kaatukuyilu</title>
+  <publisher>Thalapathy</publisher>
+  <composer>Ilayaraja</composer>
+  <singers>SPB, Yesudas</singers>
+  <language>Tamil</language>
+  <uuid>c13e0367-de40-4727-9643-2cc4ef2289a3</uuid>
+  <lyrics>
 Am		C		Am		C
 Kattukkuyilu Manasukkulla Paattukkonnum Panjamilla Paadathaan
 
@@ -207,8 +245,16 @@ Achu Vellam Pacharisi Vetti Vecha Sengarumbu
 
 G                       E
 Athanaiyum Thithikkira Naalthaan Hoay
-</lyrics></song>
-  <song><title>Kanmani Anbodu</title><publisher>Guna</publisher><composer>Ilayaraja</composer><language>Tamil</language><chordSequence>C F G Dm Em Am</chordSequence><uuid>5e472fc0-eb18-4344-a431-e239d2572d8e</uuid><lyrics>
+</lyrics>
+  </song>
+  <song>
+  <title>Kanmani Anbodu</title>
+  <publisher>Guna</publisher>
+  <composer>Ilayaraja</composer>
+  <language>Tamil</language>
+  <chordSequence>C F G Dm Em Am</chordSequence>
+  <uuid>5e472fc0-eb18-4344-a431-e239d2572d8e</uuid>
+  <lyrics>
 C Em Dm G C | Dm G
 கண்மணி அன்போடு காதலன் நான் எழுதும் கடிதமே
 பொன்மணி உன் வீட்டில் சௌக்யமா நான் இங்கு சௌக்யமே 
@@ -234,8 +280,16 @@ C Em Dm G C | Dm G
 சிவகாமியே சிவனில் நீயும் பாதியே அதுவும் உனக்கு புரியுமா 
 
 
-</lyrics></song>
-  <song><title>Nilave Va</title><publisher>Mouna Raagam</publisher><composer>Ilayaraja</composer><language>Tamil</language><chordSequence>C G F Dm Em Am</chordSequence><uuid>762a00be-8406-4ffc-b4b0-c74ab176d099</uuid><lyrics> 
+</lyrics>
+  </song>
+  <song>
+  <title>Nilave Va</title>
+  <publisher>Mouna Raagam</publisher>
+  <composer>Ilayaraja</composer>
+  <language>Tamil</language>
+  <chordSequence>C G F Dm Em Am</chordSequence>
+  <uuid>762a00be-8406-4ffc-b4b0-c74ab176d099</uuid>
+  <lyrics> 
 Intro
 C
 G
@@ -303,8 +357,16 @@ C             D         F           G
 
 C
 நிலாவே வா! செல்லாதே வா!
-</lyrics></song>
-  <song><title>Moongil Thottam</title><publisher>Kadal</publisher><composer>AR Rahman</composer><language>Tamil</language><chordSequence>Em C D G Bm Am</chordSequence><uuid>Moongil-thottam</uuid><lyrics>
+</lyrics>
+  </song>
+  <song>
+  <title>Moongil Thottam</title>
+  <publisher>Kadal</publisher>
+  <composer>AR Rahman</composer>
+  <language>Tamil</language>
+  <chordSequence>Em C D G Bm Am</chordSequence>
+  <uuid>Moongil-thottam</uuid>
+  <lyrics>
 
 Em C D G
 மூங்கில் தோட்டம், மூலிக வாசம்
@@ -379,8 +441,16 @@ D G Am D
 G C Bm Em
 வேறேன்ன வேணும் நீ போதுமே
 
-</lyrics></song>
-  <song><title>Poove Sempoove</title><publisher>Solla Thudikudhu Manasu</publisher><composer>Ilayaraja</composer><language>Tamil</language><chordSequence>D Dm A Gm C F G Bm</chordSequence><uuid>5998e682-0a84-475a-879c-c95a4f914be1</uuid><lyrics>
+</lyrics>
+  </song>
+  <song>
+  <title>Poove Sempoove</title>
+  <publisher>Solla Thudikudhu Manasu</publisher>
+  <composer>Ilayaraja</composer>
+  <language>Tamil</language>
+  <chordSequence>D Dm A Gm C F G Bm</chordSequence>
+  <uuid>5998e682-0a84-475a-879c-c95a4f914be1</uuid>
+  <lyrics>
 Intro
 D D D D
 
@@ -447,8 +517,15 @@ D D D G
 பூவே செம்பூவே
 
 
-</lyrics></song>
-  <song><title>Po Nee Po</title><publisher>3 Three</publisher><composer>Anirudh</composer><language>Tamil</language><uuid>d364ac47-90a9-4eb6-b92d-3b12a2a83213</uuid><lyrics>
+</lyrics>
+  </song>
+  <song>
+  <title>Po Nee Po</title>
+  <publisher>3 Three</publisher>
+  <composer>Anirudh</composer>
+  <language>Tamil</language>
+  <uuid>d364ac47-90a9-4eb6-b92d-3b12a2a83213</uuid>
+  <lyrics>
 Am
 Po Nee Po
 
@@ -550,8 +627,16 @@ Ohh Ohh Oh..
 
 Am G C Em
 Ohh Ohh Oh..
-</lyrics></song>
-  <song><title>Thangamey</title><publisher>Naanum Rowdy Thaan</publisher><composer>Anirudh</composer><language>Tamil</language><capo>3</capo><uuid>47868162-ecba-4b14-8359-9e40b14c5160</uuid><lyrics>
+</lyrics>
+  </song>
+  <song>
+  <title>Thangamey</title>
+  <publisher>Naanum Rowdy Thaan</publisher>
+  <composer>Anirudh</composer>
+  <language>Tamil</language>
+<capo>3</capo>
+  <uuid>47868162-ecba-4b14-8359-9e40b14c5160</uuid>
+  <lyrics>
 (Em)Thangamae Unnathaan (G)Thaedi Vantha(D)en Naanae
 (Em)Vairamae Orunaal (G)Unna Thoo(D)kuvaenae
 
@@ -596,8 +681,15 @@ Nee Illaama Naan Illadi
 
 Thangamae Unnathaan Thaedi Vanthaen Naanae
 Vairamae Orunaal Unna Thøøkuvaenae
-</lyrics></song>
-  <song><title>Yaanji</title><publisher>Vikram Vedha</publisher><composer>Sam CS</composer><language>Tamil</language><uuid>77d0eccb-6f8b-4114-bd3d-bdd09ba71e4d</uuid><lyrics>
+</lyrics>
+  </song>
+  <song>
+  <title>Yaanji</title>
+  <publisher>Vikram Vedha</publisher>
+  <composer>Sam CS</composer>
+  <language>Tamil</language>
+  <uuid>77d0eccb-6f8b-4114-bd3d-bdd09ba71e4d</uuid>
+  <lyrics>
 Am | Dm | G | C G7| Am
 Am | Dm | G | C G7| Am
 
@@ -619,8 +711,17 @@ Am   | G
 
 Am   | Am
 Am   | G   E7
-</lyrics></song>
-  <song><title>Deivam Vazhvathu</title><publisher>Vaanam</publisher><composer>Yuvan</composer><language>Tamil</language><capo>1</capo><chordSequence>Em D A A</chordSequence><uuid>deivam-vazhvathu</uuid><lyrics>
+</lyrics>
+  </song>
+  <song>
+  <title>Deivam Vazhvathu</title>
+  <publisher>Vaanam</publisher>
+  <composer>Yuvan</composer>
+  <language>Tamil</language>
+<capo>1</capo>
+  <chordSequence>Em D A A</chordSequence>
+  <uuid>deivam-vazhvathu</uuid>
+  <lyrics>
 Em A 
 தெய்வம் வாழ்வது எங்கே
 Em A 
@@ -671,8 +772,16 @@ Em D A Bm
 நாளும் வணங்கும் தெய்வம் எங்கே
 Em D A Bm
 நாளும் வணங்கும் தெய்வம் எங்கே
-</lyrics></song>
-  <song><title>Ennadi Maayavi</title><publisher>Vada Chennai</publisher><composer>Santhosh Narayanan</composer><language>Tamil</language><chordSequence>Cm Gm Fm A# Gm</chordSequence><uuid>ennadi-maayavi</uuid><lyrics>
+</lyrics>
+  </song>
+  <song>
+  <title>Ennadi Maayavi</title>
+  <publisher>Vada Chennai</publisher>
+  <composer>Santhosh Narayanan</composer>
+  <language>Tamil</language>
+  <chordSequence>Cm Gm Fm A# Gm</chordSequence>
+  <uuid>ennadi-maayavi</uuid>
+  <lyrics>
 Cm Gm
 என் தலைக்கேருற
 Gm Fm
@@ -747,8 +856,16 @@ A#
 இது பன்னீர் காலமா
 
 Cm Gm Cm Gm
-</lyrics></song>
-  <song><title>Ilaya Nila</title><publisher>Payanangal Mudivathillai</publisher><composer>Ilayaraja</composer><language>Tamil</language><chordSequence>Dm C F E Bb</chordSequence><uuid>ilaya-nila</uuid><lyrics>
+</lyrics>
+  </song>
+  <song>
+  <title>Ilaya Nila</title>
+  <publisher>Payanangal Mudivathillai</publisher>
+  <composer>Ilayaraja</composer>
+  <language>Tamil</language>
+  <chordSequence>Dm C F E Bb</chordSequence>
+  <uuid>ilaya-nila</uuid>
+  <lyrics>
 Dm       C     Dm
 இளைய நிலா பொழிகிறதே
 Dm       C     Dm
@@ -860,8 +977,15 @@ Dm     C F
 F      Bb           (A Dm)
 விழாக் காணுமே வானமே
 
-</lyrics></song>
-  <song><title>Kodai Kaala Kaatre</title><publisher>Panneer Pushpangal</publisher><composer>Ilayaraja</composer><language>Tamil</language><uuid>kodai-kaala-kaatre</uuid><lyrics>
+</lyrics>
+  </song>
+  <song>
+  <title>Kodai Kaala Kaatre</title>
+  <publisher>Panneer Pushpangal</publisher>
+  <composer>Ilayaraja</composer>
+  <language>Tamil</language>
+  <uuid>kodai-kaala-kaatre</uuid>
+  <lyrics>
 
 E
 கோடை கால காற்றே
@@ -958,8 +1082,16 @@ E
 குளிர் தென்றல் பாடும் பாட்டே
 
 
-</lyrics></song>
-  <song><title>Mazhai Varum Arikuri</title><publisher>Veppam</publisher><composer>Joshua Sridhar</composer><language>Tamil</language><capo>1</capo><uuid>mazhai-varum-arikuri</uuid><lyrics>
+</lyrics>
+  </song>
+  <song>
+  <title>Mazhai Varum Arikuri</title>
+  <publisher>Veppam</publisher>
+  <composer>Joshua Sridhar</composer>
+  <language>Tamil</language>
+<capo>1</capo>
+  <uuid>mazhai-varum-arikuri</uuid>
+  <lyrics>
 
 A
 மழை வரும் அறிகுறி என்
@@ -1118,8 +1250,16 @@ E
 A#         A
 இது ஏனோ ஏனோ? 
 
-</lyrics></song>
-  <song><title>Oliyile therivathu</title><publisher>Azhagi</publisher><composer>Ilayaraja</composer><language>Tamil</language><capo>1</capo><uuid>oliyile-therivathu</uuid><lyrics>
+</lyrics>
+  </song>
+  <song>
+  <title>Oliyile therivathu</title>
+  <publisher>Azhagi</publisher>
+  <composer>Ilayaraja</composer>
+  <language>Tamil</language>
+<capo>1</capo>
+  <uuid>oliyile-therivathu</uuid>
+  <lyrics>
 Am              Em
 ஒளியிலே தெரிவது தேவதையா
 
@@ -1194,5 +1334,101 @@ Am              Em
 Em        Em
 தேவதையா தேவதையா
 
-</lyrics></song>
+</lyrics>
+  </song>
+  <song>
+  <title>Mudhall Naal Indru</title>
+  <publisher>Unnale Unnale</publisher>
+  <composer>Harris Jayaraj</composer>
+  <singers>KK, Mahalakshmi, Shalini</singers>
+  <language>Tamil</language>
+  <chordSequence>C Am Dm G</chordSequence>
+  <tonality>C</tonality>
+  <uuid>a5184931-5d93-476e-a3ca-60dff7c9a164</uuid>
+  <lyrics>          C 
+முதல் நாள் இன்று
+        Am 
+எதுவோ ஒன்று
+Em          C
+வேறாக உனை மாற்றலாம்
+Em          C
+அங்கங்கு அனல் ஏற்றலாம்
+
+Am                    G
+என் உள்ளம் பாடுகின்றது
+Am                    G
+யார் சொல்லி கற்றுகொண்டது
+F              G        Am
+நில் என்றால் சட்டென்று நிற்காதம்மா
+F              G        Am
+நான் என்ன சொன்னாலும் கேட்காதம்மா
+G
+ஓஹோ ஜானே ஜா
+
+          C 
+முதல் நாள் இன்று
+        Am 
+எதுவோ ஒன்று
+Em          C
+வேறாக உனை மாற்றலாம்
+Em          C
+அங்கங்கு அனல் ஏற்றலாம்
+
+இசைதோறும்
+கூறுகின்ற உண்மை
+உனைப்போல காதல்மேகம் என்னை
+தீண்டுகையில்
+தித்திக்காதோ சொல்ல உள்ளம்
+
+முழுதாக
+மூழ்கியதும் இல்லை
+முழ்காமல் மிதந்ததும் இல்லை
+காதல் கடல் விழுந்தவர்
+காணும் வினை
+
+ஒ ஹோ ஓ ஹொஹோ
+வெகு தூரம் வந்தேன்
+காதல் கிருமிகள் நெருங்காமல்
+
+முதல் நாள் இன்று
+ஓஹோ
+எதுவோ ஒன்றுஓஹோ
+லேசாக எனை மாற்றலாம்
+அங்கங்கு அனல் ஏற்றலாம்
+
+
+இளம் நெஞ்சில் காதல்
+விதை தூவு
+இல்லையேல் நீ தன்னந்தனி தீவு
+வாழ்க்கை ஒரு
+சுமையாகாதோ சொல்லு
+ஓஹோ
+
+உதட்டாலே காதல்
+எனும் சொல்லை
+உரைத்தாலே கூட வரும் தொல்லை
+வாழும் மட்டும் விழிகளின்
+தூக்கம் கெடும்
+
+ஒ ஹோ ஓ ஹொஹோ
+சுகம் எது வாழ்வில்
+காதல் வலியை சுமக்காமல்
+
+முதல் நாள் இன்று
+எதுவோ ஒன்று
+வேறாக உனை மாற்றலாம்
+அங்கங்கு அனல் ஏற்றலாம்
+
+ஓ பூக்கள் வைரம் என்று தான்
+காட்டிடும் காதல் ஒன்று தான்
+உண்டாகும் இன்பங்கள் உச்சம் உச்சம்
+என்றாலும் துன்பம் தான்
+மிச்சம் மிச்சம்
+ஓஹோ தரியேயே
+
+ஒ சொனா சோனா
+ஒ சொனா சோனா
+ஒ சொனா சோனா
+ஒ சொனா சோனா</lyrics>
+  </song>
 </songs>
