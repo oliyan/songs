@@ -18,7 +18,7 @@
       --text-dim:     #999;
       --text-muted:   #555;
       --danger:       #ef4444;
-      --text-teal:     #14b8a6; 
+      --text-teal:    #14b8a6;
       --danger-dim:   rgba(239,68,68,0.15);
       --success:      #22c55e;
       --font-display: 'Playfair Display', Georgia, serif;
@@ -58,11 +58,7 @@
       flex-shrink: 0;
       user-select: none;
     }
-    .logo {
-      display: flex;
-      flex-direction: column;
-      line-height: 1.1;
-    }
+    .logo { display: flex; flex-direction: column; line-height: 1.1; }
     .logo-name {
       font-family: var(--font-display);
       font-size: 18px;
@@ -76,11 +72,7 @@
       text-transform: uppercase;
       color: var(--text-teal);
     }
-    .header-sep {
-      width: 1px; height: 24px;
-      background: var(--border);
-      margin: 0 4px;
-    }
+    .header-sep { width: 1px; height: 24px; background: var(--border); margin: 0 4px; }
     #header-status {
       font-size: 11px;
       color: var(--text-teal);
@@ -89,10 +81,7 @@
       border-radius: 20px;
       transition: color .2s, border-color .2s;
     }
-    #header-status.live {
-      color: var(--success);
-      border-color: rgba(34,197,94,.4);
-    }
+    #header-status.live { color: var(--success); border-color: rgba(34,197,94,.4); }
     .spacer { flex: 1; }
 
     /* ── BUTTONS ───────────────────────────────────── */
@@ -111,11 +100,7 @@
       white-space: nowrap;
       outline: none;
     }
-    .btn-ghost {
-      background: transparent;
-      border-color: var(--border);
-      color: var(--text-dim);
-    }
+    .btn-ghost { background: transparent; border-color: var(--border); color: var(--text-dim); }
     .btn-ghost:hover { border-color: var(--border-hover); color: var(--text); background: var(--surface-2); }
     .btn-accent { background: var(--accent); color: #000; font-weight: 600; }
     .btn-accent:hover { background: #e08e08; }
@@ -144,9 +129,7 @@
       flex-direction: column;
       gap: 7px;
     }
-    #search-wrap {
-      position: relative;
-    }
+    #search-wrap { position: relative; }
     #search-wrap svg {
       position: absolute;
       left: 8px;
@@ -213,11 +196,7 @@
       flex-shrink: 0;
     }
     .song-item:hover .song-item-actions { opacity: 1; }
-
-    #sidebar-bottom {
-      padding: 8px 12px;
-      border-top: 1px solid var(--border);
-    }
+    #sidebar-bottom { padding: 8px 12px; border-top: 1px solid var(--border); }
 
     /* ── EDITOR PANEL ──────────────────────────────── */
     #editor-panel {
@@ -227,7 +206,6 @@
       overflow: hidden;
       background: var(--bg);
     }
-
     #editor-bar {
       display: flex;
       align-items: center;
@@ -255,7 +233,6 @@
       text-overflow: ellipsis;
       white-space: nowrap;
     }
-
     #editor-scroll { flex: 1; overflow-y: auto; padding: 18px 22px 40px; }
 
     /* ── EMPTY STATE ───────────────────────────────── */
@@ -270,12 +247,7 @@
       text-align: center;
     }
     .es-icon { font-size: 52px; opacity: .2; margin-bottom: 4px; }
-    .es-title {
-      font-family: var(--font-display);
-      font-size: 18px;
-      font-style: italic;
-      color: var(--text-dim);
-    }
+    .es-title { font-family: var(--font-display); font-size: 18px; font-style: italic; color: var(--text-dim); }
     .es-body { font-size: 12px; max-width: 280px; line-height: 1.6; }
 
     /* ── FORM SECTIONS ─────────────────────────────── */
@@ -302,10 +274,7 @@
       gap: 1px;
       background: var(--border);
     }
-    .field {
-      background: var(--surface);
-      padding: 9px 13px;
-    }
+    .field { background: var(--surface); padding: 9px 13px; }
     .field.span2 { grid-column: 1 / -1; }
     .field label {
       display: block;
@@ -361,7 +330,6 @@
     }
     .legend-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--accent); }
 
-    /* The overlay editor: wrapper holds both layers */
     .editor-wrap {
       position: relative;
       height: 440px;
@@ -372,7 +340,6 @@
     }
     .editor-wrap:focus-within { border-color: var(--accent); }
 
-    /* Both layers share identical typographic settings */
     .hl-layer, .ed-textarea {
       position: absolute;
       top: 0; left: 0;
@@ -388,16 +355,13 @@
       border: none;
       border-radius: 6px;
     }
-
-    /* Highlight layer — behind, no interaction */
     .hl-layer {
       pointer-events: none;
       z-index: 0;
       overflow: auto;
-      scrollbar-width: none;     /* Firefox */
+      scrollbar-width: none;
     }
     .hl-layer::-webkit-scrollbar { display: none; }
-    /* Individual line divs */
     .hl-layer div {
       min-height: calc(var(--editor-line-height) * var(--editor-font-size));
       white-space: pre-wrap;
@@ -406,7 +370,6 @@
     .hl-layer .cl { color: var(--accent); }
     .hl-layer .ll { color: var(--text); }
 
-    /* Textarea — on top, transparent text, visible caret */
     .ed-textarea {
       z-index: 1;
       background: transparent;
@@ -416,7 +379,6 @@
       outline: none;
       overflow-y: auto;
       overflow-x: hidden;
-      spellcheck: false;
     }
     .ed-textarea::placeholder { color: var(--text-muted); }
 
@@ -446,12 +408,7 @@
       font-style: italic;
       margin-bottom: 6px;
     }
-    #modal-box p {
-      font-size: 11px;
-      color: var(--text-muted);
-      line-height: 1.6;
-      margin-bottom: 14px;
-    }
+    #modal-box p { font-size: 11px; color: var(--text-muted); line-height: 1.6; margin-bottom: 14px; }
     #modal-url {
       width: 100%;
       background: var(--bg);
@@ -489,24 +446,6 @@
     #toast.show { opacity: 1; transform: none; }
     #toast.ok  { color: var(--success); border-color: rgba(34,197,94,.35); }
     #toast.err { color: var(--danger);  border-color: rgba(239,68,68,.35); }
-
-    /* ── MISC ──────────────────────────────────────── */
-    .file-input-label {
-      display: inline-flex;
-      align-items: center;
-      gap: 5px;
-      padding: 6px 13px;
-      border-radius: 5px;
-      font-family: var(--font-body);
-      font-size: 12px;
-      font-weight: 500;
-      cursor: pointer;
-      border: 1px solid var(--border);
-      color: var(--text-dim);
-      background: transparent;
-      transition: all .15s;
-    }
-    .file-input-label:hover { border-color: var(--border-hover); color: var(--text); background: var(--surface-2); }
   </style>
 </head>
 <body>
@@ -521,10 +460,9 @@
   <div id="header-status">No data loaded</div>
   <div class="spacer"></div>
   <button class="btn btn-ghost" onclick="openURLModal()">⬆ Load URL</button>
-  <label class="file-input-label">
-    ⬆ Load File
-    <input type="file" accept=".xml" style="display:none" onchange="onFileLoad(event)">
-  </label>
+  <button class="btn btn-ghost" onclick="onLoadFileClick()">⬆ Load File</button>
+  <!-- Fallback file input for Firefox (FSA API not supported) -->
+  <input type="file" id="file-input-fallback" accept=".xml" style="display:none" onchange="onFileInputChange(event)">
   <div class="header-sep"></div>
   <button class="btn btn-accent" onclick="exportXML()">⬇ Export XML</button>
 </div>
@@ -539,7 +477,7 @@
         <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
           <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
         </svg>
-        <input type="text" id="search-input" placeholder="Search title or movie…" oninput="onSearch()">
+        <input type="text" id="search-input" placeholder="Search title or album…" oninput="onSearch()">
       </div>
       <div id="song-count">0 songs</div>
     </div>
@@ -551,8 +489,6 @@
 
   <!-- EDITOR PANEL -->
   <div id="editor-panel">
-
-    <!-- Toolbar -->
     <div id="editor-bar">
       <div id="dirty-dot" title="Unsaved changes"></div>
       <div id="editor-song-title">Select a song to edit</div>
@@ -561,7 +497,6 @@
       <button class="btn btn-accent btn-sm" id="btn-save" style="display:none" onclick="saveSong()">Save  ⌘S</button>
     </div>
 
-    <!-- Scrollable content -->
     <div id="editor-scroll">
 
       <!-- Empty state -->
@@ -571,80 +506,78 @@
         <div class="es-body">Load a URL or local XML file, then pick a song from the list — or add a new one.</div>
       </div>
 
-      <!-- Song editor (hidden until song selected) -->
+      <!-- Song editor -->
       <div id="song-editor" style="display:none">
 
-        <!-- Song Identity -->
+        <!-- ── SECTION 1: Song Details ── -->
         <div class="form-section">
-          <div class="section-head">Song Identity</div>
+          <div class="section-head">Song Details</div>
           <div class="form-grid">
             <div class="field span2">
               <label>Title <span style="color:var(--accent)">*</span></label>
               <input id="f-title" type="text" placeholder="Song title" oninput="markDirty()">
             </div>
             <div class="field">
+              <label>Album / Movie</label>
+              <input id="f-publisher" type="text" placeholder="e.g. Mouna Raagam" oninput="markDirty()">
+            </div>
+            <div class="field">
               <label>Composer</label>
-              <input id="f-composer" type="text" placeholder="e.g. Mouna Raagam" oninput="markDirty()">
+              <input id="f-composer" type="text" placeholder="e.g. Ilayaraja" oninput="markDirty()">
+            </div>
+            <div class="field">
+              <label>Singers</label>
+              <input id="f-singers" type="text" placeholder="e.g. S.P. Balasubrahmanyam" oninput="markDirty()">
             </div>
             <div class="field">
               <label>Language</label>
               <select id="f-language" onchange="markDirty()">
                 <option value="">— select —</option>
-                <option value="TAMIL">Tamil</option>
-                <option value="ENGLISH">English</option>
-                <option value="HINDI">Hindi</option>
-                <option value="TELUGU">Telugu</option>
-                <option value="MALAYALAM">Malayalam</option>
-                <option value="KANNADA">Kannada</option>
-                <option value="SANSKRIT">Sanskrit</option>
+                <option value="Tamil">Tamil</option>
+                <option value="English">English</option>
+                <option value="Hindi">Hindi</option>
+                <option value="Telugu">Telugu</option>
+                <option value="Malayalam">Malayalam</option>
+                <option value="Kannada">Kannada</option>
+                <option value="Sanskrit">Sanskrit</option>
               </select>
             </div>
           </div>
         </div>
 
-        <!-- Music Details -->
+        <!-- ── SECTION 2: Music Details ── -->
         <div class="form-section">
           <div class="section-head">Music Details</div>
           <div class="form-grid">
             <div class="field">
-              <label>Tonality / Key</label>
-              <input id="f-tonality" type="text" placeholder="e.g. Am, C, G" oninput="markDirty()">
+              <label>Capo</label>
+              <select id="f-capo" onchange="markDirty()">
+                <option value="0">None</option>
+                <option value="1">1st fret</option>
+                <option value="2">2nd fret</option>
+                <option value="3">3rd fret</option>
+                <option value="4">4th fret</option>
+                <option value="5">5th fret</option>
+                <option value="6">6th fret</option>
+                <option value="7">7th fret</option>
+              </select>
             </div>
             <div class="field">
-              <label>Chord Sequence</label>
+              <label>Chords</label>
               <input id="f-chordSequence" type="text" placeholder="e.g. Am G F E" oninput="markDirty()">
             </div>
             <div class="field">
-              <label>Lyrics by</label>
-              <input id="f-authorText" type="text" placeholder="Lyricist name" oninput="markDirty()">
+              <label>Scale</label>
+              <input id="f-tonality" type="text" placeholder="e.g. Am, C, G" oninput="markDirty()">
             </div>
             <div class="field">
-              <label>Translation by</label>
-              <input id="f-authorTranslation" type="text" placeholder="Translator name" oninput="markDirty()">
+              <label>Additional Notes</label>
+              <input id="f-songNotes" type="text" placeholder="Any notes…" oninput="markDirty()">
             </div>
           </div>
         </div>
 
-        <!-- Publishing -->
-        <div class="form-section">
-          <div class="section-head">Publishing & Notes</div>
-          <div class="form-grid">
-            <div class="field">
-              <label>Publisher</label>
-              <input id="f-publisher" type="text" placeholder="Label / studio" oninput="markDirty()">
-            </div>
-            <div class="field">
-              <label>Song Notes / Tags</label>
-              <input id="f-songNotes" type="text" placeholder="Tags, capo info, etc." oninput="markDirty()">
-            </div>
-            <div class="field span2">
-              <label>Additional Copyright Notes</label>
-              <input id="f-additionalCopyrightNotes" type="text" placeholder="Any additional copyright text" oninput="markDirty()">
-            </div>
-          </div>
-        </div>
-
-        <!-- Lyrics & Chords -->
+        <!-- ── SECTION 3: Lyrics & Chords ── -->
         <div>
           <div class="lyrics-header">
             <div class="lyrics-label">Lyrics &amp; Chords</div>
@@ -692,13 +625,21 @@
 'use strict';
 
 // ═══════════════════════════════════════════════════════════════
+//  FEATURE DETECTION
+//  showOpenFilePicker = Chrome/Edge → direct file write on Ctrl+S
+//  fallback           = Firefox    → download on Ctrl+S
+// ═══════════════════════════════════════════════════════════════
+const FSA = 'showOpenFilePicker' in window;
+
+// ═══════════════════════════════════════════════════════════════
 //  STATE
 // ═══════════════════════════════════════════════════════════════
 const S = {
-  songs: [],
-  sel: -1,       // selected index into songs[]
-  dirty: false,
-  q: '',         // search query
+  songs:      [],
+  sel:        -1,       // selected index into songs[]
+  dirty:      false,
+  q:          '',       // search query
+  fileHandle: null,     // FileSystemFileHandle (Chrome/Edge only)
 };
 
 // ═══════════════════════════════════════════════════════════════
@@ -706,19 +647,12 @@ const S = {
 // ═══════════════════════════════════════════════════════════════
 function looksLikeChordToken(raw) {
   if (!raw) return false;
-  // Musical notation: |, ||, ---, X2, |X2 …
   if (/^(\|+|---+|X\d+|\|X\d+)$/.test(raw)) return true;
-  // Strip parens for Style-B inline chords: (Dm)
   let t = raw;
   if (t.startsWith('(') && t.endsWith(')')) t = t.slice(1, -1);
   if (!t) return false;
-  // Must begin with uppercase A-G (rules out Tamil, common English words)
   if (!'ABCDEFG'.includes(t[0])) return false;
-  // Must be pure ASCII (rules out any Tamil / Unicode script)
   for (let i = 0; i < t.length; i++) if (t.charCodeAt(i) > 127) return false;
-  // Full chord pattern:
-  //   root  optional-accidental  optional-quality  optional-number
-  //   optional-extension  optional-transition-pair  optional-slash-bass
   return /^[A-G][#b]?(m|maj|min|dim|aug|sus)?\d{0,2}(sus\d|maj\d|add\d)?([A-G][#b]?(m|maj|min|dim|aug|sus)?\d{0,2})?(\/[A-G][#b]?(m|maj|min|dim|aug|sus)?\d{0,2})?$/.test(t);
 }
 
@@ -727,8 +661,7 @@ function isChordLine(line) {
   if (!norm.trim()) return false;
   const tokens = norm.trim().split(/\s+/);
   if (!tokens.length) return false;
-  const hits = tokens.filter(looksLikeChordToken).length;
-  return hits / tokens.length >= 0.6;
+  return tokens.filter(looksLikeChordToken).length / tokens.length >= 0.6;
 }
 
 // ═══════════════════════════════════════════════════════════════
@@ -740,37 +673,42 @@ function parseXML(xmlStr) {
   if (err) throw new Error('XML parse error: ' + err.textContent.split('\n')[0].trim());
   const getT = (node, tag) => node.querySelector(tag)?.textContent ?? '';
   return Array.from(doc.querySelectorAll('song')).map(n => ({
-    uuid:                    getT(n,'uuid')                    || uuid4(),
-    title:                   getT(n,'title'),
-    composer:                getT(n,'composer'),
-    authorText:              getT(n,'authorText'),
-    authorTranslation:       getT(n,'authorTranslation'),
-    publisher:               getT(n,'publisher'),
-    additionalCopyrightNotes:getT(n,'additionalCopyrightNotes'),
-    language:                getT(n,'language'),
-    songNotes:               getT(n,'songNotes'),
-    tonality:                getT(n,'tonality'),
-    chordSequence:           getT(n,'chordSequence'),
-    lyrics:                  getT(n,'lyrics'),
-    image:                   getT(n,'image'),
-    imageRotation:           getT(n,'imageRotation'),
+    uuid:          getT(n,'uuid')    || uuid4(),
+    title:         getT(n,'title'),
+    publisher:     getT(n,'publisher'),   // Album / Movie
+    composer:      getT(n,'composer'),
+    singers:       getT(n,'singers'),     // new tag
+    language:      getT(n,'language'),
+    capo:          parseInt(getT(n,'capo')) || 0,
+    chordSequence: getT(n,'chordSequence'),
+    tonality:      getT(n,'tonality'),
+    songNotes:     getT(n,'songNotes'),
+    lyrics:        getT(n,'lyrics'),
+    image:         getT(n,'image'),
+    imageRotation: getT(n,'imageRotation'),
   }));
 }
 
 function serializeXML(songs) {
   const x = s => (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
-  const t = (tag, val) => val ? `<${tag}>${x(val)}</${tag}>` : '';
+  const t = (tag, val) => val ? `  <${tag}>${x(val)}</${tag}>` : '';
   const songBlocks = songs.map(s => {
     const body = [
-      t('title',s.title), t('composer',s.composer),
-      t('authorText',s.authorText), t('authorTranslation',s.authorTranslation),
-      t('publisher',s.publisher), t('additionalCopyrightNotes',s.additionalCopyrightNotes),
-      t('language',s.language), t('songNotes',s.songNotes),
-      t('tonality',s.tonality), t('uuid',s.uuid),
-      t('chordSequence',s.chordSequence), t('lyrics',s.lyrics),
-      t('image',s.image), t('imageRotation',s.imageRotation),
-    ].filter(Boolean).join('');
-    return `  <song>${body}</song>`;
+      t('title',         s.title),
+      t('publisher',     s.publisher),
+      t('composer',      s.composer),
+      t('singers',       s.singers),
+      t('language',      s.language),
+      s.capo > 0         ? `<capo>${s.capo}</capo>` : '',
+      t('chordSequence', s.chordSequence),
+      t('tonality',      s.tonality),
+      t('songNotes',     s.songNotes),
+      t('uuid',          s.uuid),
+      t('lyrics',        s.lyrics),
+      t('image',         s.image),
+      t('imageRotation', s.imageRotation),
+    ].filter(Boolean).join('\n');
+    return `  <song>\n${body}\n  </song>`;
   }).join('\n');
   return `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n<songs>\n<autoSort>true</autoSort>\n${songBlocks}\n</songs>`;
 }
@@ -796,15 +734,102 @@ function toast(msg, type='') {
   el.textContent = msg;
   el.className = 'show ' + type;
   clearTimeout(_toastT);
-  _toastT = setTimeout(() => el.className = '', 3000);
+  _toastT = setTimeout(() => el.className = '', 4000);
+}
+
+// ═══════════════════════════════════════════════════════════════
+//  FILE I/O
+// ═══════════════════════════════════════════════════════════════
+
+// "Load File" button — Chrome/Edge uses FSA, Firefox falls back to input
+async function onLoadFileClick() {
+  if (FSA) {
+    try {
+      const [handle] = await window.showOpenFilePicker({
+        types: [{ description: 'XML Files', accept: { 'text/xml': ['.xml'] } }],
+        multiple: false,
+      });
+      S.fileHandle = handle;
+      const file = await handle.getFile();
+      const text = await file.text();
+      ingestXML(text);
+      toast(`Loaded ${S.songs.length} songs from ${file.name} ✓`, 'ok');
+    } catch(e) {
+      if (e.name !== 'AbortError') toast('Could not open file: ' + e.message, 'err');
+    }
+  } else {
+    // Firefox: trigger the hidden <input type="file">
+    document.getElementById('file-input-fallback').click();
+  }
+}
+
+// Firefox fallback handler
+function onFileInputChange(evt) {
+  const file = evt.target.files[0];
+  if (!file) return;
+  S.fileHandle = null;  // no handle in Firefox
+  const r = new FileReader();
+  r.onload = e => {
+    try {
+      ingestXML(e.target.result);
+      toast(`Loaded ${S.songs.length} songs from ${file.name} ✓`, 'ok');
+    } catch(err) {
+      toast(err.message, 'err');
+    }
+  };
+  r.readAsText(file, 'UTF-8');
+  evt.target.value = '';
+}
+
+// Write to file (called after every successful saveSong)
+async function persistToFile() {
+  const xml = serializeXML(S.songs);
+  if (S.fileHandle) {
+    // Chrome/Edge: write directly back to the original file
+    try {
+      const writable = await S.fileHandle.createWritable();
+      await writable.write(xml);
+      await writable.close();
+      toast(`Saved to ${S.fileHandle.name} ✓`, 'ok');
+    } catch(e) {
+      if (e.name === 'NotAllowedError') {
+        toast('Permission denied — use Export XML instead', 'err');
+      } else {
+        toast('Write failed: ' + e.message, 'err');
+      }
+    }
+  } else {
+    // Firefox / URL-loaded: trigger a download
+    downloadBlob(xml, 'isai-chords.xml');
+    toast('Downloaded songs.xml — check your downloads folder', 'ok');
+  }
+}
+
+// Export XML button — always downloads a copy regardless of fileHandle
+function exportXML() {
+  if (!S.songs.length) { toast('Nothing to export — load or create songs first', 'err'); return; }
+  if (S.dirty && !confirm('Unsaved form changes not yet applied. Export anyway?')) return;
+  const name = S.fileHandle ? S.fileHandle.name : 'isai-chords.xml';
+  downloadBlob(serializeXML(S.songs), name);
+  toast(`Exported ${name} ✓`, 'ok');
+}
+
+function downloadBlob(xml, filename) {
+  const blob = new Blob([xml], { type: 'application/xml;charset=utf-8' });
+  const a = Object.assign(document.createElement('a'), {
+    href: URL.createObjectURL(blob),
+    download: filename,
+  });
+  a.click();
+  URL.revokeObjectURL(a.href);
 }
 
 // ═══════════════════════════════════════════════════════════════
 //  LYRICS EDITOR — highlight overlay
 // ═══════════════════════════════════════════════════════════════
 function updateHL() {
-  const ta  = document.getElementById('ed');
-  const hl  = document.getElementById('hl');
+  const ta = document.getElementById('ed');
+  const hl = document.getElementById('hl');
   hl.innerHTML = ta.value.split('\n').map(line =>
     `<div class="${isChordLine(line)?'cl':'ll'}">${esc(line)}</div>`
   ).join('');
@@ -829,14 +854,17 @@ function onLyricsChange() {
 function filteredSongs() {
   const q = S.q.toLowerCase();
   return S.songs.reduce((acc, song, i) => {
-    if (!q || (song.title||'').toLowerCase().includes(q) || (song.composer||'').toLowerCase().includes(q))
+    if (!q ||
+        (song.title    ||'').toLowerCase().includes(q) ||
+        (song.publisher||'').toLowerCase().includes(q) ||
+        (song.composer ||'').toLowerCase().includes(q))
       acc.push({ song, i });
     return acc;
   }, []);
 }
 
 function renderList() {
-  const list = document.getElementById('song-list');
+  const list  = document.getElementById('song-list');
   const items = filteredSongs();
   document.getElementById('song-count').textContent =
     items.length + (items.length !== S.songs.length ? ` of ${S.songs.length}` : '') + ' songs';
@@ -847,11 +875,12 @@ function renderList() {
     }</div>`;
     return;
   }
+  // Sidebar subtitle shows Album/Movie (publisher)
   list.innerHTML = items.map(({ song, i }) => `
     <div class="song-item${i===S.sel?' active':''}" onclick="selectSong(${i})">
       <div class="song-item-body">
         <div class="song-item-title">${esc(song.title||'(Untitled)')}</div>
-        <div class="song-item-sub">${esc(song.composer||'—')}</div>
+        <div class="song-item-sub">${esc(song.publisher||'—')}</div>
       </div>
       <div class="song-item-actions">
         <button class="btn btn-ghost btn-icon" onclick="moveSong(event,${i},-1)" title="Move up">↑</button>
@@ -883,23 +912,21 @@ function selectSong(i) {
 }
 
 function fillEditor(song) {
-  document.getElementById('empty-state').style.display  = 'none';
-  document.getElementById('song-editor').style.display  = '';
-  document.getElementById('btn-save').style.display   = '';
-  document.getElementById('btn-delete').style.display = '';
+  document.getElementById('empty-state').style.display = 'none';
+  document.getElementById('song-editor').style.display = '';
+  document.getElementById('btn-save').style.display    = '';
+  document.getElementById('btn-delete').style.display  = '';
 
-  document.getElementById('f-title').value                   = song.title||'';
-  document.getElementById('f-composer').value                = song.composer||'';
-  document.getElementById('f-language').value                = song.language||'';
-  document.getElementById('f-tonality').value                = song.tonality||'';
-  document.getElementById('f-chordSequence').value           = song.chordSequence||'';
-  document.getElementById('f-authorText').value              = song.authorText||'';
-  document.getElementById('f-authorTranslation').value       = song.authorTranslation||'';
-  document.getElementById('f-publisher').value               = song.publisher||'';
-  document.getElementById('f-songNotes').value               = song.songNotes||'';
-  document.getElementById('f-additionalCopyrightNotes').value= song.additionalCopyrightNotes||'';
-
-  document.getElementById('ed').value = song.lyrics||'';
+  document.getElementById('f-title').value         = song.title         || '';
+  document.getElementById('f-publisher').value     = song.publisher     || '';
+  document.getElementById('f-composer').value      = song.composer      || '';
+  document.getElementById('f-singers').value       = song.singers       || '';
+  document.getElementById('f-language').value      = song.language      || '';
+  document.getElementById('f-capo').value          = String(song.capo   || 0);
+  document.getElementById('f-chordSequence').value = song.chordSequence || '';
+  document.getElementById('f-tonality').value      = song.tonality      || '';
+  document.getElementById('f-songNotes').value     = song.songNotes     || '';
+  document.getElementById('ed').value              = song.lyrics        || '';
   updateHL();
 
   const titleEl = document.getElementById('editor-song-title');
@@ -915,24 +942,25 @@ function markDirty() {
 
 function readForm() {
   return {
-    title:                    document.getElementById('f-title').value.trim(),
-    composer:                 document.getElementById('f-composer').value.trim(),
-    language:                 document.getElementById('f-language').value,
-    tonality:                 document.getElementById('f-tonality').value.trim(),
-    chordSequence:            document.getElementById('f-chordSequence').value.trim(),
-    authorText:               document.getElementById('f-authorText').value.trim(),
-    authorTranslation:        document.getElementById('f-authorTranslation').value.trim(),
-    publisher:                document.getElementById('f-publisher').value.trim(),
-    songNotes:                document.getElementById('f-songNotes').value.trim(),
-    additionalCopyrightNotes: document.getElementById('f-additionalCopyrightNotes').value.trim(),
-    lyrics:                   document.getElementById('ed').value,
+    title:         document.getElementById('f-title').value.trim(),
+    publisher:     document.getElementById('f-publisher').value.trim(),
+    composer:      document.getElementById('f-composer').value.trim(),
+    singers:       document.getElementById('f-singers').value.trim(),
+    language:      document.getElementById('f-language').value,
+    capo:          parseInt(document.getElementById('f-capo').value) || 0,
+    chordSequence: document.getElementById('f-chordSequence').value.trim(),
+    tonality:      document.getElementById('f-tonality').value.trim(),
+    songNotes:     document.getElementById('f-songNotes').value.trim(),
+    lyrics:        document.getElementById('ed').value,
   };
 }
 
-function saveSong() {
+async function saveSong() {
   if (S.sel < 0) return;
   const vals = readForm();
   if (!vals.title) { toast('Title is required', 'err'); return; }
+
+  // Commit form values to in-memory state
   Object.assign(S.songs[S.sel], vals);
   S.dirty = false;
   document.getElementById('dirty-dot').className = '';
@@ -941,7 +969,9 @@ function saveSong() {
   titleEl.style.color = 'var(--text)';
   renderList();
   refreshStatus();
-  toast('Saved ✓', 'ok');
+
+  // Auto-write to file (Chrome/Edge) or download (Firefox/URL)
+  await persistToFile();
 }
 
 function deleteSong() {
@@ -949,7 +979,7 @@ function deleteSong() {
   const name = S.songs[S.sel].title || 'this song';
   if (!confirm(`Delete "${name}"?`)) return;
   S.songs.splice(S.sel, 1);
-  S.sel = -1;
+  S.sel   = -1;
   S.dirty = false;
   showEmpty();
   renderList();
@@ -960,8 +990,8 @@ function deleteSong() {
 function showEmpty() {
   document.getElementById('empty-state').style.display = '';
   document.getElementById('song-editor').style.display = 'none';
-  document.getElementById('btn-save').style.display = 'none';
-  document.getElementById('btn-delete').style.display = 'none';
+  document.getElementById('btn-save').style.display    = 'none';
+  document.getElementById('btn-delete').style.display  = 'none';
   const titleEl = document.getElementById('editor-song-title');
   titleEl.textContent = 'Select a song to edit';
   titleEl.style.color = 'var(--text-dim)';
@@ -971,12 +1001,12 @@ function showEmpty() {
 function addSong() {
   if (S.dirty && !confirm('Unsaved changes — add new song anyway?')) return;
   const song = {
-    uuid: uuid4(), title:'', composer:'', authorText:'', authorTranslation:'',
-    publisher:'', additionalCopyrightNotes:'', language:'TAMIL', songNotes:'',
-    tonality:'', chordSequence:'', lyrics:'', image:'', imageRotation:'',
+    uuid: uuid4(), title:'', publisher:'', composer:'', singers:'',
+    language:'Tamil', capo:0, chordSequence:'', tonality:'', songNotes:'',
+    lyrics:'', image:'', imageRotation:'',
   };
   S.songs.push(song);
-  S.sel = S.songs.length - 1;
+  S.sel   = S.songs.length - 1;
   S.dirty = false;
   fillEditor(song);
   renderList();
@@ -1006,32 +1036,14 @@ function onSearch() {
 //  LOAD XML
 // ═══════════════════════════════════════════════════════════════
 function ingestXML(xmlStr) {
-  const songs = parseXML(xmlStr);   // throws on bad XML
-  S.songs = songs;
-  S.sel = -1;
+  S.songs = parseXML(xmlStr);
+  S.sel   = -1;
   S.dirty = false;
-  S.q = '';
+  S.q     = '';
   document.getElementById('search-input').value = '';
   showEmpty();
   renderList();
   refreshStatus();
-}
-
-// File picker
-function onFileLoad(evt) {
-  const file = evt.target.files[0];
-  if (!file) return;
-  const r = new FileReader();
-  r.onload = e => {
-    try {
-      ingestXML(e.target.result);
-      toast(`Loaded ${S.songs.length} songs from file ✓`, 'ok');
-    } catch(err) {
-      toast(err.message, 'err');
-    }
-  };
-  r.readAsText(file, 'UTF-8');
-  evt.target.value = '';   // allow reloading same file
 }
 
 // URL modal
@@ -1044,46 +1056,30 @@ function closeModal() { document.getElementById('modal-bg').classList.remove('op
 function onModalBgClick(e) { if (e.target === document.getElementById('modal-bg')) closeModal(); }
 
 async function doFetch() {
-  const url = document.getElementById('modal-url').value.trim();
+  const url   = document.getElementById('modal-url').value.trim();
   if (!url) return;
-  const btn = document.getElementById('btn-fetch');
+  const btn   = document.getElementById('btn-fetch');
   const errEl = document.getElementById('modal-err');
   btn.textContent = 'Fetching…';
-  btn.disabled = true;
+  btn.disabled    = true;
   errEl.style.display = 'none';
   try {
     const res = await fetch(url);
     if (!res.ok) throw new Error(`HTTP ${res.status} — ${res.statusText}`);
     const text = await res.text();
+    S.fileHandle = null;   // URL load → no file handle
     ingestXML(text);
     closeModal();
     toast(`Loaded ${S.songs.length} songs ✓`, 'ok');
-  } catch(err) {
-    errEl.textContent = err.message.includes('fetch')
+  } catch(e) {
+    errEl.textContent = e.message.includes('fetch')
       ? 'Could not reach that URL. Check the address and CORS policy.'
-      : err.message;
+      : e.message;
     errEl.style.display = 'block';
   } finally {
     btn.textContent = 'Fetch';
-    btn.disabled = false;
+    btn.disabled    = false;
   }
-}
-
-// ═══════════════════════════════════════════════════════════════
-//  EXPORT
-// ═══════════════════════════════════════════════════════════════
-function exportXML() {
-  if (!S.songs.length) { toast('Nothing to export — load or create songs first', 'err'); return; }
-  if (S.dirty && !confirm('There are unsaved changes in the editor (not yet saved to the list).\nExport anyway?')) return;
-  const xml  = serializeXML(S.songs);
-  const blob = new Blob([xml], { type: 'application/xml;charset=utf-8' });
-  const a    = Object.assign(document.createElement('a'), {
-    href: URL.createObjectURL(blob),
-    download: 'isai-chords.xml',
-  });
-  a.click();
-  URL.revokeObjectURL(a.href);
-  toast('Exported isai-chords.xml ✓', 'ok');
 }
 
 // ═══════════════════════════════════════════════════════════════
